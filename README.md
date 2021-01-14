@@ -39,4 +39,4 @@
     <p>if any of that validation not valid display an alert message for the user </p>
 </div>
 
-<img src="https://drive.google.com/file/d/1ExK6ItrDwdr62auTNpoD1usisAeLD7Jb/preview">
+![Untitled project ‐ Made with Clipchamp (4)](https://user-images.githubusercontent.com/74079025/104530824-86c08d00-5615-11eb-84e4-63729cb0684f.gif)
