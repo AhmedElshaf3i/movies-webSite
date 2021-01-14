@@ -38,3 +38,5 @@
     <p>All input shouldn't be empty</p> 
     <p>if any of that validation not valid display an alert message for the user </p>
 </div>
+
+<img src="https://drive.google.com/file/d/1ExK6ItrDwdr62auTNpoD1usisAeLD7Jb/preview">
