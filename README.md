@@ -1,6 +1,6 @@
 <div>
   <h1> Movies-webSite</h1>
-  <p>It offers you a brief overview of films such as rating, definition, and poster image for the movie. You have to choose between a group of categories such as top-rated         trending..etc</p>
+  <p>It offers you a brief overview of films such as rating, definition, and poster image for the movie. You have to choose between a group of categories such as top-rated trending..etc</p>
 </div>
 <div>
   <h2>API webSite <a href="https://developers.themoviedb.org/3/getting-started/introduction?fbclid=IwAR1DjyFb2jybMy6CnwJ8YM8arvlMGmtJQ7jlelduw5IMPGCvjiyEeBzHabg">TMDb</a></h2> 
