@@ -13,7 +13,7 @@
   <ul>
 
 <h2>Project files</h2>
-<h3>consist of five modules :</h3>
+<p>consist of five modules :</p>
 <ul>
   <li> Script: the start point of the project </li>
   <li> Menu: slide menu allows user to select category </li>
