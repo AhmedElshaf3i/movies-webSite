@@ -1,0 +1,146 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+
+</head>
+
+<body>
+  
+
+    <section >
+        <div class="menu  row no-gutters">
+
+            <div class="col-md-8 menuList d-flex flex-column justify-content-between  py-4 pl-4">
+                <div class="items">
+                    <a href="#" apiKey="Now">Now playing</a>
+                    <a href="#" apiKey="popular">Popular</a>
+                    <a href="#" apiKey="toprated">Top Rated</a>
+                    <a href="#" apiKey="trending">Trending</a>
+                    <a href="#" apiKey="upcoming">Upcoming</a>
+                    <a href="#contacts">Contact Us</a>
+                </div>
+
+                <div>
+                    <div class="pb-3">
+                        <i class="  fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter px-3"></i>
+                        <i class="fas fa-globe"></i>
+                        <footer class="pt-4">
+                            Copyright Â© 2021 All Rights Reserved
+                        </footer>
+                    </div>
+                </div>
+        
+
+            </div>
+           
+
+            <div class="menuBar d-flex flex-column justify-content-between align-items-center py-4 px-0 ">
+                <img src="images/logo.png" class="w-50" alt="">
+                <i id="menuIcon" class="fa fas fa-align-justify fa-2x "></i>
+                <div class="d-flex flex-column">
+                    <i class="pb-3 fas  fa-globe"></i>
+                    <i class="fas fa-share-alt"></i>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="container mt-5">
+
+        <div  class="row justify-content-between mb-5">
+            <input id="searchWord" type="text" placeholder="get Movies by word..."
+                class="inputFocus searchInput form-control form-group">
+            <input id="search" type="text" placeholder="search..." class="inputFocus searchInput form-control">
+        </div>
+
+
+
+
+        <section >
+            <div id="movies" class="row">
+
+
+                <!--js display  -->
+
+            </div>
+
+        </section>
+
+
+
+        <section id="contacts" class="container p-5">
+
+            <div id="contact" class="row container justify-content-between mb-5">
+
+                <div class="col-6 m-auto">
+                    <input id="name" type="text" maxlength="10" placeholder="Enter your Name" class="contactInput inputFocus form-control form-group">
+                    <div class="d-none alert alert-danger" id="nameAlert" role="alert">
+                        Your Name is not valid
+                    </div>
+                </div>
+
+                <div class="col-6 m-auto">
+                    <input id="email" type="email" placeholder="Enter your email" class="contactInput inputFocus form-control form-group ">
+                    <div class="d-none alert alert-danger" id="emailAlert" role="alert">
+                        entre valid email
+                    </div>
+                </div>
+                <div class=" col-6 m-auto">
+                    <input id="phone" type="number" placeholder="Enter your phone" class="contactInput inputFocus form-control form-group">
+                    <div class="d-none alert alert-danger" id="phoneAlert" role="alert">
+                        entre valid phone
+                    </div>
+                </div>
+
+                <div class="col-6 m-auto">
+                    <input id="age" min="10" max="99" type="number" placeholder="Enter your Age" class="contactInput inputFocus form-control form-group ">
+                    <div class="d-none alert alert-danger" id="ageAlert" role="alert">
+                        entre valid Age
+                    </div>
+                </div>
+
+                <div class="col-6 m-auto">
+                    <input id="pass" type="password" maxlength="15" placeholder="Enter password" class="contactInput inputFocus form-control form-group">
+                    <div class="d-none alert alert-danger" id="passwordAlert" role="alert">
+                        entre valid password *Minimum eight characters, at least one letter and one number:*
+                    </div>
+                </div>
+
+                <div class="col-6 m-auto">
+                    <input id="repass" type="password" maxlength="15" placeholder="Enter Repassword" class="contactInput inputFocus form-control form-group ">
+                    <div class="d-none alert alert-danger" id="RepasswordAlert" role="alert">
+                        entre valid Repassword
+                    </div>
+                </div>
+
+                <button  id ="submitBtn"class="btn btn-outline-danger"disabled >Submit</button>
+                <span class="d-none w-75 p-2 text-center bg-success"></span>
+
+
+            </div>
+
+        </section>
+
+    </section>
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
